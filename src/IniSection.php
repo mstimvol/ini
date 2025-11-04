@@ -27,7 +27,7 @@ class IniSection
      * @param string $name
      * @param IniSection|null $parent
      */
-    public function __construct($name, IniSection $parent = null)
+    public function __construct($name, ?IniSection $parent = null)
     {
         $this->name = $name;
         $this->parent = $parent;
